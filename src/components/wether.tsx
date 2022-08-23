@@ -14,7 +14,7 @@ interface WetherState {
 
 class Wether extends React.Component<WetherProps, WetherState> {
   async fetchData() {
-    const key = "b5d32261c0dc4f88a71111045221406";
+    const key = "<Your API_Key>";
     const count = "honduras";
     let data = await axios(
       `http://api.weatherapi.com/v1/current.json?key=${key}&q=${count}&aqi=yes`

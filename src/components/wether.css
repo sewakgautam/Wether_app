@@ -1,0 +1,53 @@
+body {
+  background-color: #4E5860;
+}
+
+.parentContainer {
+  border-radius: 2%;
+  background-color: #2E3335;
+  margin-top: 15%;
+  height: 28rem;
+  width: 20rem;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container {
+  text-align: center;
+  position: absolute;
+  border-radius: 2%;
+  background-color: rgb(255, 255, 255);
+  height: 21rem;
+  width: 20rem;
+}
+
+.wetherCondition{
+  color: aliceblue;
+  text-align: center;
+  left: 0px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.locationName {
+  color: aliceblue;
+  text-align: center;
+  left: 0px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.wetherIcon {
+  width: 8rem;
+  margin-top: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.currentTemp {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+}
